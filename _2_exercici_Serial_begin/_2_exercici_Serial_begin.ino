@@ -14,9 +14,9 @@
 
 //************************* SETUP ************************************
 
-void setup()              
+void setup()   // executa quan comencem           
 {
-  Serial.begin(9600);    
+  Serial.begin(9600); // configura la biblioteca serial a 9600 bps  
 }
 
 
@@ -24,10 +24,10 @@ void setup()
  
 //************************** LOOP ************************************
 
-void loop()                     
+void loop() // executa una vegada i una altra                    
 {
-  Serial.print("Hello world!");  // prints Hello world!
-  delay(1000);
+  Serial.print("Hello world!");  // escriu Hello world!
+  delay(1000); // escriu cada segon
 }
 
 //************************ FUNCIONS **********************************
