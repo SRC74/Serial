@@ -1,6 +1,6 @@
 /*********************************************************************
  **                                                                 **       
- **                          TÏTOL: Serial                          ** 
+ **                          TÏTOL: Serial Hello World              ** 
  **                                                                 **
  **                                                                 ** 
  **  Nom: Salva Ramírez                          Data: 30/01/2017   **
@@ -14,24 +14,18 @@
 
 //************************* SETUP ************************************
 
-void setup() {      // configura el final de sortida
-  
-  pinMode(13,OUTPUT); // Assigna el pin 13 com sortida
+void setup()                // Executa una vegada quan engeguem.
+{
+  Serial.begin(9600);       // Configurar la biblioteca a 9600 bps
+  Serial.println("Hello world!"); // Escriu Hello World
 }
 
 
  
-
 //************************** LOOP ************************************
 
-void loop() {       // inicia el bucle del programa
-
-
-
-  digitalWrite(13,HIGH); // Llegeix el pin digital 13 i l'encén
-  delay(1000); // interval d'un segon encesa led
-  digitalWrite(13,LOW); Llegeix  situació pin 13 i l'apaga
-  delay(1000); Led apagat durant un segon.
- 
+void loop()   // Executa una vegada i una altra
+{
+           // No facis res
 }
 //************************ FUNCIONS **********************************
