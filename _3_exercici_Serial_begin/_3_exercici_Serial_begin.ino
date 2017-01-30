@@ -16,7 +16,7 @@
 
 void setup()   // executa quan comencem           
 {
-   Serial.begin(9600);       // set up Serial library at 9600 bps
+   Serial.begin(9600); // configura la biblioteca serial a 9600 bps
 }
 
 
@@ -26,8 +26,8 @@ void setup()   // executa quan comencem
 
 void loop() // executa una vegada i una altra                    
 {
-  Serial.println("Hello world!");  
-  delay(1000);
+  Serial.println("Hello world!"); // escriu Hello World a cada línia 
+  delay(1000); // executa cada segon
 }
 
 
